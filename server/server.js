@@ -23,6 +23,21 @@ app.use((req, res, next) => {
   next();
 });
 
+// ======= ROOT ROUTE =======
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'MERN Todo App Backend API',
+    status: 'Server is running ✅',
+    timestamp: new Date().toISOString(),
+    version: '1.0.0',
+    endpoints: {
+      api: '/api',
+      auth: '/api/auth',
+      todos: '/api/todos'
+    }
+  });
+});
+
 // ======= TEST ROUTE =======
 app.get('/api', (req, res) => {
   res.json({ 
@@ -68,8 +83,6 @@ app.use((err, req, res, next) => {
 
 // ======= DATABASE CONNECTION =======
 mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
   serverSelectionTimeoutMS: 5000,
   socketTimeoutMS: 45000,
 })
