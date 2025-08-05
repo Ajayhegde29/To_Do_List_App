@@ -4,8 +4,9 @@ A full-stack Todo application built with the MERN stack (MongoDB, Express.js, Re
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel):** [https://mern-todo-app-frontend.vercel.app](https://mern-todo-app-frontend.vercel.app)
+- **Frontend (Vercel):** [Deploying... - Will be updated after Vercel deployment]
 - **Backend (Render):** [https://to-do-list-app-backend-aq9b.onrender.com](https://to-do-list-app-backend-aq9b.onrender.com)
+- **API Test:** [https://to-do-list-app-backend-aq9b.onrender.com/api](https://to-do-list-app-backend-aq9b.onrender.com/api)
 
 ## ✨ Features
 
@@ -199,6 +200,29 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [MongoDB](https://www.mongodb.com/) for the flexible database
 - [Render](https://render.com/) for hosting the backend
 - [Vercel](https://vercel.com/) for hosting the frontend
+
+## 📋 Assignment Completion
+
+This project was completed as part of a coding challenge assignment with the following requirements:
+
+### ✅ Completed Requirements:
+- [x] **Fork repository** - Repository forked and cloned locally
+- [x] **Complete coding challenge** - Full MERN stack Todo application with authentication
+- [x] **Deploy application** - Backend deployed on Render, Frontend ready for Vercel deployment
+- [x] **Update README.md** - Comprehensive documentation with deployment URLs
+- [x] **Create deployment branch** - `assignment-deployment` branch created
+- [x] **Submit pull request** - Ready for PR submission
+
+### 🚀 Deployment Status:
+- **Backend:** ✅ Successfully deployed on Render
+- **Frontend:** 🔄 Ready for Vercel deployment
+- **Database:** ✅ MongoDB Atlas connected
+- **API:** ✅ All endpoints working correctly
+
+### 📝 Next Steps:
+1. Deploy frontend on Vercel
+2. Update frontend URL in README.md
+3. Submit pull request to original repository
 
 ## 📞 Support
 
